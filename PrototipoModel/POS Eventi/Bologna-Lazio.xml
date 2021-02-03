@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Evento>
+  <Nome>Bologna-Lazio</Nome>
+  <DataInizio>30/09/2014 15.00</DataInizio>
+  <DataFine>30/09/2014 17.00</DataFine>
+  <Durata>02:00</Durata>
+  <GradoDiRischio>5</GradoDiRischio>
+  <SettoriAperti>
+    <Settore Nome="Distinti">
+      <Personale Nome="Stefano" Cognome="Grandi" CF="StefanoGrandi" Qualifica="Coordinatore">
+        <Mansione Incarico="Coordinatore" Servizio="Lunga" />
+      </Personale>
+      <Personale Nome="Giacinto" Cognome="Greece" CF="GiacintoGreece" Qualifica="CapoUnita">
+        <Mansione Incarico="CapoUnita" Servizio="Lunga" />
+      </Personale>
+      <Personale Nome="Cataldo" Cognome="Costa" CF="CataldoCosta" Qualifica="CapoUnita">
+        <Mansione Incarico="CapoUnita" Servizio="Lunga" />
+      </Personale>
+      <Personale Nome="Ella" Cognome="Calabresi" CF="EllaCalabresi" Qualifica="Steward">
+        <Mansione Incarico="Steward" Servizio="Lunga" />
+      </Personale>
+      <Personale Nome="Mariano" Cognome="Bianchi" CF="MarianoBianchi" Qualifica="Steward">
+        <Mansione Incarico="Steward" Servizio="Lunga" />
+      </Personale>
+      <Personale Nome="Maura" Cognome="Sabbatini" CF="MauraSabbatini" Qualifica="Steward">
+        <Mansione Incarico="Steward" Servizio="Lunga" />
+      </Personale>
+      <Personale Nome="Giuliano" Cognome="Zetticci" CF="GiulianoZetticci" Qualifica="Steward">
+        <Mansione Incarico="Steward" Servizio="Corta" />
+      </Personale>
+      <Personale Nome="Cassio" Cognome="Piccio" CF="CassioPiccio" Qualifica="Steward">
+        <Mansione Incarico="Steward" Servizio="Corta" />
+      </Personale>
+      <Personale Nome="Ermenegilda" Cognome="Mazzi" CF="ErmenegildaMazzi" Qualifica="Steward">
+        <Mansione Incarico="Steward" Servizio="Corta" />
+      </Personale>
+      <Personale Nome="Greta" Cognome="Arcuri" CF="GretaArcuri" Qualifica="Steward">
+        <Mansione Incarico="Steward" Servizio="Corta" />
+      </Personale>
+      <Personale Nome="Geraldino" Cognome="Udinesi" CF="GeraldinoUdinesi" Qualifica="Steward">
+        <Mansione Incarico="Steward" Servizio="Corta" />
+      </Personale>
+      <Personale Nome="Ermenegilda" Cognome="Costa" CF="ErmenegildaCosta" Qualifica="Steward">
+        <Mansione Incarico="Steward" Servizio="Corta" />
+      </Personale>
+      <Personale Nome="Michelina" Cognome="Manfrin" CF="MichelinaManfrin" Qualifica="Steward">
+        <Mansione Incarico="Steward" Servizio="Corta" />
+      </Personale>
+      <Personale Nome="Adalgisa" Cognome="Lombardi" CF="AdalgisaLombardi" Qualifica="Steward">
+        <Mansione Incarico="Steward" Servizio="Corta" />
+      </Personale>
+      <Personale Nome="Natascia" Cognome="Mazzi" CF="NatasciaMazzi" Qualifica="Steward">
+        <Mansione Incarico="Steward" Servizio="Corta" />
+      </Personale>
+      <Personale Nome="Crispino" Cognome="De Luca" CF="CrispinoDeLuca" Qualifica="Steward">
+        <Mansione Incarico="Steward" Servizio="Corta" />
+      </Personale>
+    </Settore>
+    <Settore Nome="Tribuna">
+      <Personale Nome="Cettina" Cognome="Giordano" CF="CettinaGiordano" Qualifica="Coordinatore">
+        <Mansione Incarico="Coordinatore" Servizio="Lunga" />
+      </Personale>
+      <Personale Nome="Melania" Cognome="Mancini" CF="MelaniaMancini" Qualifica="CapoUnita">
+        <Mansione Incarico="CapoUnita" Servizio="Lunga" />
+      </Personale>
+      <Personale Nome="Ausilio" Cognome="Palerma" CF="AusilioPalerma" Qualifica="Steward">
+        <Mansione Incarico="Steward" Servizio="Corta" />
+      </Personale>
+      <Personale Nome="Cecilia" Cognome="Marcelo" CF="CeciliaMarcelo" Qualifica="Steward">
+        <Mansione Incarico="Steward" Servizio="Corta" />
+      </Personale>
+      <Personale Nome="Adalrico" Cognome="Calabrese" CF="AdalricoCalabrese" Qualifica="Steward">
+        <Mansione Incarico="Steward" Servizio="Corta" />
+      </Personale>
+      <Personale Nome="Tiziana" Cognome="Beneventi" CF="TizianaBeneventi" Qualifica="Steward">
+        <Mansione Incarico="Steward" Servizio="Corta" />
+      </Personale>
+      <Personale Nome="Delfio" Cognome="Lombardi" CF="DelfioLombardi" Qualifica="Steward">
+        <Mansione Incarico="Steward" Servizio="Lunga" />
+      </Personale>
+      <Personale Nome="Ferruccio" Cognome="Calabrese" CF="FerruccioCalabrese" Qualifica="Steward">
+        <Mansione Incarico="Steward" Servizio="Lunga" />
+      </Personale>
+      <Personale Nome="Candido" Cognome="Sal" CF="CandidoSal" Qualifica="Steward">
+        <Mansione Incarico="Steward" Servizio="Lunga" />
+      </Personale>
+      <Personale Nome="Adele" Cognome="Milanesi" CF="AdeleMilanesi" Qualifica="Steward">
+        <Mansione Incarico="Steward" Servizio="Corta" />
+      </Personale>
+      <Personale Nome="Alberto" Cognome="Mancini" CF="AlbertoMancini" Qualifica="Steward">
+        <Mansione Incarico="Steward" Servizio="Corta" />
+      </Personale>
+      <Personale Nome="Prospero" Cognome="Piazza" CF="ProsperoPiazza" Qualifica="Steward">
+        <Mansione Incarico="Steward" Servizio="Corta" />
+      </Personale>
+    </Settore>
+  </SettoriAperti>
+</Evento>

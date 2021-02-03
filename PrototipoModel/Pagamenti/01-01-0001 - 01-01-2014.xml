@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Pagamento DataInizio="1/01/0001" DataFine="1/01/2014">
+  <Persona Nome="Stefano">
+    <Compenso>90</Compenso>
+  </Persona>
+  <Persona Nome="Cristina">
+    <Compenso>80</Compenso>
+  </Persona>
+  <Persona Nome="Cataldo">
+    <Compenso>35</Compenso>
+  </Persona>
+  <Persona Nome="Gina">
+    <Compenso>58</Compenso>
+  </Persona>
+  <Persona Nome="Melissa">
+    <Compenso>58</Compenso>
+  </Persona>
+  <Persona Nome="Lavinia">
+    <Compenso>46</Compenso>
+  </Persona>
+  <Persona Nome="Crispino">
+    <Compenso>46</Compenso>
+  </Persona>
+  <Persona Nome="Prospero">
+    <Compenso>58</Compenso>
+  </Persona>
+  <Persona Nome="Eliano">
+    <Compenso>58</Compenso>
+  </Persona>
+  <Persona Nome="Ferruccio">
+    <Compenso>45</Compenso>
+  </Persona>
+  <Persona Nome="Eufrosina">
+    <Compenso>35</Compenso>
+  </Persona>
+  <Persona Nome="Luigia">
+    <Compenso>35</Compenso>
+  </Persona>
+  <Persona Nome="Marcello">
+    <Compenso>46</Compenso>
+  </Persona>
+  <Persona Nome="Vitale">
+    <Compenso>58</Compenso>
+  </Persona>
+  <Persona Nome="Amalia">
+    <Compenso>58</Compenso>
+  </Persona>
+  <Persona Nome="Angelo">
+    <Compenso>58</Compenso>
+  </Persona>
+  <Persona Nome="Alberto">
+    <Compenso>46</Compenso>
+  </Persona>
+  <Persona Nome="Adele">
+    <Compenso>35</Compenso>
+  </Persona>
+  <Persona Nome="Candido">
+    <Compenso>35</Compenso>
+  </Persona>
+  <Persona Nome="Ferruccio">
+    <Compenso>35</Compenso>
+  </Persona>
+  <Persona Nome="Giacinto">
+    <Compenso>35</Compenso>
+  </Persona>
+  <Persona Nome="Antonina">
+    <Compenso>35</Compenso>
+  </Persona>
+</Pagamento>

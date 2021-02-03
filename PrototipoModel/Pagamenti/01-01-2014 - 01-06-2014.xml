@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Pagamento DataInizio="1/01/2014" DataFine="1/06/2014">
+  <Persona Nome="Stefano">
+    <Compenso>50</Compenso>
+  </Persona>
+  <Persona Nome="Luigia">
+    <Compenso>37,5</Compenso>
+  </Persona>
+  <Persona Nome="Eufrosina">
+    <Compenso>37,5</Compenso>
+  </Persona>
+  <Persona Nome="Vitale">
+    <Compenso>30</Compenso>
+  </Persona>
+  <Persona Nome="Angelo">
+    <Compenso>30</Compenso>
+  </Persona>
+  <Persona Nome="Alberto">
+    <Compenso>37,5</Compenso>
+  </Persona>
+  <Persona Nome="Adele">
+    <Compenso>30</Compenso>
+  </Persona>
+  <Persona Nome="Candido">
+    <Compenso>30</Compenso>
+  </Persona>
+  <Persona Nome="Ferruccio">
+    <Compenso>37,5</Compenso>
+  </Persona>
+  <Persona Nome="Delfio">
+    <Compenso>30</Compenso>
+  </Persona>
+  <Persona Nome="Adalrico">
+    <Compenso>37,5</Compenso>
+  </Persona>
+  <Persona Nome="Tiziana">
+    <Compenso>30</Compenso>
+  </Persona>
+  <Persona Nome="Cecilia">
+    <Compenso>37,5</Compenso>
+  </Persona>
+  <Persona Nome="Ausilio">
+    <Compenso>67,5</Compenso>
+  </Persona>
+  <Persona Nome="Natascia">
+    <Compenso>67,5</Compenso>
+  </Persona>
+  <Persona Nome="Adalgisa">
+    <Compenso>67,5</Compenso>
+  </Persona>
+  <Persona Nome="Michelina">
+    <Compenso>60</Compenso>
+  </Persona>
+  <Persona Nome="Ermenegilda">
+    <Compenso>60</Compenso>
+  </Persona>
+  <Persona Nome="Mariano">
+    <Compenso>60</Compenso>
+  </Persona>
+  <Persona Nome="Sesto">
+    <Compenso>50</Compenso>
+  </Persona>
+  <Persona Nome="Melania">
+    <Compenso>37,5</Compenso>
+  </Persona>
+  <Persona Nome="Ermenegilda">
+    <Compenso>30</Compenso>
+  </Persona>
+  <Persona Nome="Greta">
+    <Compenso>37,5</Compenso>
+  </Persona>
+  <Persona Nome="Geraldino">
+    <Compenso>30</Compenso>
+  </Persona>
+  <Persona Nome="Cettina">
+    <Compenso>50</Compenso>
+  </Persona>
+  <Persona Nome="Antonina">
+    <Compenso>37,5</Compenso>
+  </Persona>
+  <Persona Nome="Ella">
+    <Compenso>30</Compenso>
+  </Persona>
+  <Persona Nome="Maura">
+    <Compenso>37,5</Compenso>
+  </Persona>
+  <Persona Nome="Giuliano">
+    <Compenso>37,5</Compenso>
+  </Persona>
+  <Persona Nome="Cassio">
+    <Compenso>30</Compenso>
+  </Persona>
+  <Persona Nome="Cristina">
+    <Compenso>50</Compenso>
+  </Persona>
+  <Persona Nome="Belinda">
+    <Compenso>37,5</Compenso>
+  </Persona>
+  <Persona Nome="Gina">
+    <Compenso>30</Compenso>
+  </Persona>
+  <Persona Nome="Melissa">
+    <Compenso>30</Compenso>
+  </Persona>
+  <Persona Nome="Lavinia">
+    <Compenso>30</Compenso>
+  </Persona>
+</Pagamento>

@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A33B0024-50F2-461B-BD24-796BF3D3355C}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>POSsys</RootNamespace>
+    <AssemblyName>PrototipoModel</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Model\AddettoAllaSicurezza.cs" />
+    <Compile Include="Model\Assegnamenti.cs" />
+    <Compile Include="Model\Evento.cs" />
+    <Compile Include="Model\IGetLavoro.cs" />
+    <Compile Include="Model\Indirizzo.cs" />
+    <Compile Include="Model\IPersonale.cs" />
+    <Compile Include="Model\ISettore.cs" />
+    <Compile Include="Model\Lavoro.cs" />
+    <Compile Include="Model\LuogoNascita.cs" />
+    <Compile Include="Model\Mansione.cs" />
+    <Compile Include="Model\MansioneCapoUnita.cs" />
+    <Compile Include="Model\MansioneCoordinatore.cs" />
+    <Compile Include="Model\MansioneFactory.cs" />
+    <Compile Include="Model\MansioneSteward.cs" />
+    <Compile Include="Model\MansioneStewardCorta.cs" />
+    <Compile Include="Model\MansioneStewardLunga.cs" />
+    <Compile Include="Model\PersonaleFactory.cs" />
+    <Compile Include="Model\Qualifica.cs" />
+    <Compile Include="Model\RetribuzioneMansione.cs" />
+    <Compile Include="Model\Servizio.cs" />
+    <Compile Include="Model\Settore.cs" />
+    <Compile Include="Model\Eventi.cs" />
+    <Compile Include="Model\GeneraPOS.cs" />
+    <Compile Include="Model\RegolaCapoUnita.cs" />
+    <Compile Include="Model\RegolaSteward.cs" />
+    <Compile Include="Model\ViolatedRuleException.cs" />
+    <Compile Include="Model\Impianto.cs" />
+    <Compile Include="Model\IVisitor.cs" />
+    <Compile Include="Model\Pagamenti.cs" />
+    <Compile Include="Model\Pagamento.cs" />
+    <Compile Include="Model\RegolaCoordinatore.cs" />
+    <Compile Include="Model\SettoreInteressato.cs" />
+    <Compile Include="Persistence\EventiLoader.cs" />
+    <Compile Include="Persistence\ILoader.cs" />
+    <Compile Include="Persistence\ImpiantoLoader.cs" />
+    <Compile Include="Persistence\MansioniLoader.cs" />
+    <Compile Include="Persistence\PagamentiLoader.cs" />
+    <Compile Include="Persistence\PersistenceFactory.cs" />
+    <Compile Include="Persistence\PersonaleFactoryLoader.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\AnnullaEvento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\AnnullaEvento.designer.cs">
+      <DependentUpon>AnnullaEvento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\CalcolaCompensi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\CalcolaCompensi.designer.cs">
+      <DependentUpon>CalcolaCompensi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\CreaAddettoAllaSicurezza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\CreaAddettoAllaSicurezza.designer.cs">
+      <DependentUpon>CreaAddettoAllaSicurezza.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\CreaNuovoEvento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\CreaNuovoEvento.designer.cs">
+      <DependentUpon>CreaNuovoEvento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\CreaNuovoSettore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\CreaNuovoSettore.designer.cs">
+      <DependentUpon>CreaNuovoSettore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\EliminaAddetto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\EliminaAddetto.designer.cs">
+      <DependentUpon>EliminaAddetto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\EliminaSettore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\EliminaSettore.designer.cs">
+      <DependentUpon>EliminaSettore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Form1.designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ModificaDatiAddetto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ModificaDatiAddetto.designer.cs">
+      <DependentUpon>ModificaDatiAddetto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ModificaSettore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ModificaSettore.designer.cs">
+      <DependentUpon>ModificaSettore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ProgrammaLavoro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ProgrammaLavoro.designer.cs">
+      <DependentUpon>ProgrammaLavoro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\RetribuzioniMansioni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\RetribuzioniMansioni.Designer.cs">
+      <DependentUpon>RetribuzioniMansioni.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\SelezionaAddetti.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\SelezionaAddetti.designer.cs">
+      <DependentUpon>SelezionaAddetti.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ModificaEvento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ModificaEvento.designer.cs">
+      <DependentUpon>ModificaEvento.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Properties\DataSources\POSsys.Model.AddettoAllaSicurezza.datasource" />
+    <None Include="Properties\DataSources\POSsys.Model.Evento.datasource" />
+    <None Include="Properties\DataSources\POSsys.Model.IPersonale.datasource" />
+    <None Include="Properties\DataSources\POSsys.Model.Lavoro.datasource" />
+    <None Include="Properties\DataSources\POSsys.Model.RetribuzioneMansione.datasource" />
+    <None Include="Properties\DataSources\POSsys.Model.Settore.datasource" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="View\AnnullaEvento.resx">
+      <DependentUpon>AnnullaEvento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\CalcolaCompensi.resx">
+      <DependentUpon>CalcolaCompensi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\CreaAddettoAllaSicurezza.resx">
+      <DependentUpon>CreaAddettoAllaSicurezza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\CreaNuovoEvento.resx">
+      <DependentUpon>CreaNuovoEvento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\CreaNuovoSettore.resx">
+      <DependentUpon>CreaNuovoSettore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\EliminaAddetto.resx">
+      <DependentUpon>EliminaAddetto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\EliminaSettore.resx">
+      <DependentUpon>EliminaSettore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ModificaDatiAddetto.resx">
+      <DependentUpon>ModificaDatiAddetto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ModificaSettore.resx">
+      <DependentUpon>ModificaSettore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ProgrammaLavoro.resx">
+      <DependentUpon>ProgrammaLavoro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\RetribuzioniMansioni.resx">
+      <DependentUpon>RetribuzioniMansioni.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\SelezionaAddetti.resx">
+      <DependentUpon>SelezionaAddetti.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ModificaEvento.resx">
+      <DependentUpon>ModificaEvento.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

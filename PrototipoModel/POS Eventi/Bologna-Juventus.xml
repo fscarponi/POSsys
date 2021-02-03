@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Evento>
+  <Nome>Bologna-Juventus</Nome>
+  <DataInizio>23/12/2013 15.00</DataInizio>
+  <DataFine>23/12/2013 17.00</DataFine>
+  <Durata>02:00</Durata>
+  <GradoDiRischio>7</GradoDiRischio>
+  <SettoriAperti>
+    <Settore Nome="Bulgarelli">
+      <Personale Nome="Stefano" Cognome="Grandi" CF="StefanoGrandi" Qualifica="Coordinatore">
+        <Mansione Incarico="Coordinatore" Servizio="Lunga" />
+      </Personale>
+      <Personale Nome="Giacinto" Cognome="Greece" CF="GiacintoGreece" Qualifica="CapoUnita">
+        <Mansione Incarico="CapoUnita" Servizio="Lunga" />
+      </Personale>
+      <Personale Nome="Gina" Cognome="Siciliano" CF="GinaSiciliano" Qualifica="Steward">
+        <Mansione Incarico="Steward" Servizio="Lunga" />
+      </Personale>
+      <Personale Nome="Melissa" Cognome="Trevisano" CF="MelissaTrevisano" Qualifica="Steward">
+        <Mansione Incarico="Steward" Servizio="Lunga" />
+      </Personale>
+      <Personale Nome="Lavinia" Cognome="Marcelo" CF="LaviniaMarcelo" Qualifica="Steward">
+        <Mansione Incarico="Steward" Servizio="Corta" />
+      </Personale>
+      <Personale Nome="Crispino" Cognome="De Luca" CF="CrispinoDeLuca" Qualifica="Steward">
+        <Mansione Incarico="Steward" Servizio="Corta" />
+      </Personale>
+      <Personale Nome="Prospero" Cognome="Piazza" CF="ProsperoPiazza" Qualifica="Steward">
+        <Mansione Incarico="Steward" Servizio="Corta" />
+      </Personale>
+      <Personale Nome="Eliano" Cognome="Greece" CF="ElianoGreece" Qualifica="Steward">
+        <Mansione Incarico="Steward" Servizio="Corta" />
+      </Personale>
+      <Personale Nome="Marcello" Cognome="Pisano" CF="MarcelloPisano" Qualifica="Steward">
+        <Mansione Incarico="Steward" Servizio="Corta" />
+      </Personale>
+    </Settore>
+    <Settore Nome="Ospiti">
+      <Personale Nome="Cristina" Cognome="Endrizzi" CF="CristinaEndrizzi" Qualifica="Coordinatore">
+        <Mansione Incarico="Coordinatore" Servizio="Lunga" />
+      </Personale>
+      <Personale Nome="Antonina" Cognome="Onio" CF="AntoninaOnio" Qualifica="CapoUnita">
+        <Mansione Incarico="CapoUnita" Servizio="Lunga" />
+      </Personale>
+      <Personale Nome="Vitale" Cognome="Bellucci" CF="VitaleBellucci" Qualifica="Steward">
+        <Mansione Incarico="Steward" Servizio="Lunga" />
+      </Personale>
+      <Personale Nome="Amalia" Cognome="Trentini" CF="AmaliaTrentini" Qualifica="Steward">
+        <Mansione Incarico="Steward" Servizio="Lunga" />
+      </Personale>
+      <Personale Nome="Angelo" Cognome="Fallaci" CF="AngeloFallaci" Qualifica="Steward">
+        <Mansione Incarico="Steward" Servizio="Lunga" />
+      </Personale>
+      <Personale Nome="Alberto" Cognome="Mancini" CF="AlbertoMancini" Qualifica="Steward">
+        <Mansione Incarico="Steward" Servizio="Corta" />
+      </Personale>
+    </Settore>
+  </SettoriAperti>
+</Evento>
